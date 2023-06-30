@@ -1,0 +1,117 @@
+.bodyTotal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0, 8fr 1fr 1fr 1fr 0fr;
+    grid-template-areas:
+        "menu menu"
+        "intro intro"
+        "principal1 principal1"
+        "principal2 principal2"
+        "video video"
+        "footer footer";
+}
+
+.navegacion {
+    grid-area: menu;
+}
+
+.center {
+    grid-area: intro;
+}
+
+.post1 {
+    grid-area: principal1;
+}
+
+.post2 {
+    grid-area: principal2;
+}
+
+.post3 {
+    grid-area: video;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.center {
+    background-image: url(../imagenes/cuerpo\ tecnico1.jpg.);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+
+}
+
+.post1 {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.imagen1 {
+    width: 650px;
+
+}
+
+.descrip1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+
+.post2 {
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.imagen2 {
+    width: 650px;
+}
+
+.descrip2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.post3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-image: url(../imagenes/fondo\ jugadores1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+
+
+}
+
+.descrip3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+.video1 {
+    height: 310px;
+    width: 500px;
+    margin-top: 3rem;
+}

@@ -1,0 +1,60 @@
+.bodyTotal2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.1fr 0.1fr 5fr 0.1fr;
+    grid-template-areas:
+        "menu menu"
+        "titulo titulo"
+        "contenido contenido"
+        "footer footer";
+}
+
+.navegacion {
+    grid-area: menu;
+}
+
+.titulo3 {
+    grid-area: titulo;
+}
+
+.main3 {
+    grid-area: contenido;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main3 {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.titulo3 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+
+}
+
+.partido1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+
+
+}
+
+.video2 {
+    width: 510px;
+    height: 300px;
+
+
+}

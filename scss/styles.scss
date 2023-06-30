@@ -1,0 +1,82 @@
+@import "lailusion";
+@import "elcamino";
+@import "lafinal";
+@import "lagente";
+@import "mediaqueries.scss";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.encabezado {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 75px;
+        margin-left: 5rem;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 4.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+
+    img {
+        height: 300px;
+    }
+
+    h2 {
+        padding-top: 1rem;
+        font-size: 2.1rem;
+    }
+}
+
+main div:hover {
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.6);
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    text-align: right;
+
+    img {
+        height: 40px;
+    }
+}

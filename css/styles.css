@@ -1,0 +1,465 @@
+.bodyTotal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.3fr 0, 8fr 1fr 1fr 1fr 0fr;
+  grid-template-areas: "menu menu" "intro intro" "principal1 principal1" "principal2 principal2" "video video" "footer footer";
+}
+
+.navegacion {
+  grid-area: menu;
+}
+
+.center {
+  grid-area: intro;
+}
+
+.post1 {
+  grid-area: principal1;
+}
+
+.post2 {
+  grid-area: principal2;
+}
+
+.post3 {
+  grid-area: video;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.center {
+  background-image: url(../imagenes/cuerpo\ tecnico1.jpg.);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.post1 {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.imagen1 {
+  width: 650px;
+}
+
+.descrip1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.post2 {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.imagen2 {
+  width: 650px;
+}
+
+.descrip2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.post3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-image: url(../imagenes/fondo\ jugadores1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+}
+
+.descrip3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 1.4rem;
+}
+
+.video1 {
+  height: 310px;
+  width: 500px;
+  margin-top: 3rem;
+}
+
+.bodyTotal2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.1fr 0.1fr 5fr 0.1fr;
+  grid-template-areas: "menu menu" "titulo titulo" "contenido contenido" "footer footer";
+}
+
+.navegacion {
+  grid-area: menu;
+}
+
+.titulo3 {
+  grid-area: titulo;
+}
+
+.main3 {
+  grid-area: contenido;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.main3 {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.titulo3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.partido1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.video2 {
+  width: 510px;
+  height: 300px;
+}
+
+.main4 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main4 img {
+  width: 520px;
+  height: 305px;
+}
+.main4 iframe {
+  width: 520px;
+  height: 305px;
+}
+
+.titulo4 {
+  text-align: center;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ultimo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.video3 {
+  width: 600px;
+  height: 300px;
+}
+
+.div4 {
+  text-align: center;
+}
+
+.article4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.img4 {
+  height: 300px;
+  width: 500px;
+}
+
+.qatar img {
+  width: 550px;
+  height: 350px;
+}
+
+.titulo5c {
+  margin-top: 4rem;
+}
+
+.bangladesh {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mapa {
+  width: 400px;
+  height: 250px;
+}
+
+.img5 {
+  width: 400px;
+  height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .bodyTotal {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0, 8fr 1fr 1fr 1fr 0fr;
+    grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
+  }
+  .encabezado img {
+    width: 50px;
+    margin-left: 5rem;
+  }
+  li {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+  .center {
+    font-size: 1rem;
+    height: 40rem;
+  }
+  .post1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .post1 p {
+    margin-top: 1rem;
+  }
+  .imagen1 {
+    width: 550px;
+    height: 320px;
+    margin-top: 1rem;
+  }
+  .descrip1 {
+    font-size: 1.1rem;
+  }
+  .post2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .post2 p {
+    margin-top: 1rem;
+  }
+  .imagen2 {
+    width: 550px;
+    height: 325px;
+    margin-top: 1rem;
+  }
+  .descrip2 {
+    font-size: 1.1rem;
+  }
+  .post3 {
+    height: 33rem;
+  }
+  .descrip3 {
+    color: whitesmoke;
+    font-size: 1.1rem;
+  }
+  .video1 {
+    height: 220px;
+    width: 360px;
+    margin-top: 2rem;
+  }
+  .footer img {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bodyTotal {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0, 6fr 1fr 1fr 1fr 0.1fr;
+    grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
+  }
+  li {
+    font-size: 1rem;
+  }
+  .center {
+    font-size: 0.9rem;
+    height: 30rem;
+  }
+  .descrip1 {
+    font-size: 0.9rem;
+  }
+  .imagen1 {
+    width: 400px;
+    height: 200px;
+    margin-top: 0, 5rem;
+    margin-right: none;
+  }
+  .descrip2 {
+    font-size: 0.9rem;
+  }
+  .imagen2 {
+    width: 400px;
+    height: 200px;
+    margin-top: 0, 5rem;
+  }
+  .descrip3 {
+    color: whitesmoke;
+    font-size: 0.8rem;
+  }
+  .video1 {
+    height: 200px;
+    width: 300px;
+    margin-top: 2rem;
+  }
+  .footer img {
+    height: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bodyTotal2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.3fr 4fr 0.1fr;
+    grid-template-areas: "menu " "titulo" "contenido " "footer ";
+  }
+  .main3 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo3 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .partido1 {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .video2 {
+    width: 480px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bodyTotal2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.3fr 7fr 0.1fr;
+    grid-template-areas: "menu " "titulo" "contenido " "footer ";
+  }
+  .main3 {
+    margin-top: 4rem;
+  }
+  .titulo3 {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .partido1 {
+    font-size: 0.9rem;
+  }
+  .video2 {
+    width: 400px;
+    height: 220px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bitter", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.encabezado {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.encabezado img {
+  width: 75px;
+  margin-left: 5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 4.5rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.intro img {
+  height: 300px;
+}
+.intro h2 {
+  padding-top: 1rem;
+  font-size: 2.1rem;
+}
+
+main div:hover {
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.6);
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  text-align: right;
+}
+.footer img {
+  height: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
