@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .bodyTotal {
+    .bodyTotal2 {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0, 8fr 1fr 1fr 1fr 0fr;
         grid-template-areas:
@@ -11,10 +11,7 @@
             "footer";
     }
 
-    .encabezado img {
-        width: 50px;
-        margin-left: 5rem;
-    }
+
 
     li {
         display: inline-block;
@@ -93,7 +90,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .bodyTotal {
+    .bodyTotal2 {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0, 6fr 1fr 1fr 1fr 0.1fr;
         grid-template-areas:
@@ -103,6 +100,11 @@
             "principal2"
             "video"
             "footer";
+    }
+
+    .encabezado img {
+        width: 10px;
+        margin-left: 5rem;
     }
 
     li {
@@ -152,9 +154,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .bodyTotal2 {
+    .bodyTotal3 {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.3fr 4fr 0.1fr;
+        grid-template-rows: 0.1fr 0.8fr 6fr 0.1fr;
         grid-template-areas:
             "menu "
             "titulo"
@@ -191,7 +193,7 @@
 }
 
 @media screen and (max-width:500px) {
-    .bodyTotal2 {
+    .bodyTotal3 {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.3fr 7fr 0.1fr;
         grid-template-areas:
@@ -221,5 +223,20 @@
     .video2 {
         width: 400px;
         height: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodyTotal1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 5fr 0.2fr;
+        grid-template-areas:
+            "menu"
+            "contenido"
+            "footer";
+    }
+
+    .encabezado {
+        background-color: red;
     }
 }

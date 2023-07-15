@@ -1,4 +1,4 @@
-.bodyTotal {
+.bodyTotal2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 0.3fr 0, 8fr 1fr 1fr 1fr 0fr;
@@ -48,11 +48,19 @@
     margin-top: 1rem;
     font-size: 1.4rem;
 
+    p {
+        font-size: 1.7rem;
+    }
 }
 
 .post1 {
     display: flex;
     margin-top: 3rem;
+
+    p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 .imagen1 {
@@ -72,6 +80,11 @@
 .post2 {
     display: flex;
     margin-top: 3rem;
+
+    p {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 
 }
 
@@ -108,6 +121,10 @@
     align-items: center;
     color: whitesmoke;
     font-size: 1.4rem;
+
+    p {
+        text-align: justify;
+    }
 }
 
 .video1 {

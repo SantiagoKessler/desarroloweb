@@ -1,9 +1,82 @@
+.bodyTotal4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.2fr 0.3fr 2.8fr 0.8fr 0.6fr 0.1fr;
+    grid-template-areas:
+        "menu menu"
+        "titulo titulo"
+        "principal principal"
+        "penales penales"
+        "final final"
+        "footer footer";
+
+
+
+    .navegacion {
+        grid-area: menu;
+    }
+
+    .titulo4 {
+        grid-area: titulo;
+    }
+
+    .main4 {
+        grid-area: principal;
+    }
+
+    .ultimo1 {
+        grid-area: penales;
+    }
+
+    .final {
+        grid-area: final;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo4 {
+    text-align: center;
+
+
+    h1 {
+        font-size: 2.1rem;
+        letter-spacing: 0.2rem;
+    }
+
+
+    h2 {
+        margin-top: 0.5rem;
+        font-size: 1.4rem;
+
+    }
+}
+
 .main4 {
     margin-top: 10rem;
     margin-bottom: 5rem;
+    padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 
     img {
         width: 520px;
@@ -17,15 +90,16 @@
 
 }
 
-.titulo4 {
-    text-align: center;
-}
-
 .section4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+
+    p {
+        font-size: 1.0, 5rem;
+        font-weight: 700;
+    }
 }
 
 .ultimo1 {
@@ -35,6 +109,11 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
+
+    p {
+        font-size: 1.0, 5rem;
+        font-weight: 800;
+    }
 }
 
 .video3 {
@@ -44,17 +123,34 @@
 
 .div4 {
     text-align: center;
+    margin-top: 3rem;
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-weight: 500;
+    }
 }
 
-.article4 {
-
+.campeon {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+
+
 }
 
 .img4 {
-    height: 300px;
-    width: 500px;
-
+    height: 310px;
+    width: 510px;
 }

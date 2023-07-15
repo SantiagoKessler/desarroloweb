@@ -1,4 +1,4 @@
-.bodyTotal {
+.bodyTotal2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0.3fr 0, 8fr 1fr 1fr 1fr 0fr;
@@ -42,10 +42,17 @@
   margin-top: 1rem;
   font-size: 1.4rem;
 }
+.center p {
+  font-size: 1.7rem;
+}
 
 .post1 {
   display: flex;
   margin-top: 3rem;
+}
+.post1 p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .imagen1 {
@@ -63,6 +70,10 @@
 .post2 {
   display: flex;
   margin-top: 3rem;
+}
+.post2 p {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .imagen2 {
@@ -97,6 +108,9 @@
   color: whitesmoke;
   font-size: 1.4rem;
 }
+.descrip3 p {
+  text-align: justify;
+}
 
 .video1 {
   height: 310px;
@@ -104,7 +118,7 @@
   margin-top: 3rem;
 }
 
-.bodyTotal2 {
+.bodyTotal3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0.1fr 0.1fr 5fr 0.1fr;
@@ -146,7 +160,10 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+.partido1 p {
+  font-weight: 700;
 }
 
 .video2 {
@@ -154,9 +171,47 @@
   height: 300px;
 }
 
+.bodyTotal4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 0.3fr 2.8fr 0.8fr 0.6fr 0.1fr;
+  grid-template-areas: "menu menu" "titulo titulo" "principal principal" "penales penales" "final final" "footer footer";
+}
+.bodyTotal4 .navegacion {
+  grid-area: menu;
+}
+.bodyTotal4 .titulo4 {
+  grid-area: titulo;
+}
+.bodyTotal4 .main4 {
+  grid-area: principal;
+}
+.bodyTotal4 .ultimo1 {
+  grid-area: penales;
+}
+.bodyTotal4 .final {
+  grid-area: final;
+}
+.bodyTotal4 .footer {
+  grid-area: footer;
+}
+
+.titulo4 {
+  text-align: center;
+}
+.titulo4 h1 {
+  font-size: 2.1rem;
+  letter-spacing: 0.2rem;
+}
+.titulo4 h2 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+}
+
 .main4 {
   margin-top: 10rem;
   margin-bottom: 5rem;
+  padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -170,15 +225,15 @@
   height: 305px;
 }
 
-.titulo4 {
-  text-align: center;
-}
-
 .section4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+}
+.section4 p {
+  font-size: 1, 5rem;
+  font-weight: 700;
 }
 
 .ultimo1 {
@@ -188,6 +243,10 @@
   align-items: center;
   padding-bottom: 3rem;
 }
+.ultimo1 p {
+  font-size: 1, 5rem;
+  font-weight: 800;
+}
 
 .video3 {
   width: 600px;
@@ -196,53 +255,127 @@
 
 .div4 {
   text-align: center;
+  margin-top: 3rem;
+}
+.div4 h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.div4 h4 {
+  font-size: 1.5rem;
+}
+.div4 p {
+  font-size: 1.3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: 500;
 }
 
-.article4 {
+.campeon {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 }
 
 .img4 {
-  height: 300px;
-  width: 500px;
+  height: 310px;
+  width: 510px;
 }
 
+.bodyTotal5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 0, 5fr 0.5fr 0.5fr 0.5fr 0.1fr;
+  grid-template-areas: "menu menu " "titulo titulo" "info1  info1" "info2  info2" "info3  info3" "footer footer";
+}
+.bodyTotal5 .navegacion {
+  grid-area: menu;
+}
+.bodyTotal5 .titulop {
+  grid-area: titulo;
+}
+.bodyTotal5 .info1 {
+  grid-area: info1;
+}
+.bodyTotal5 .info2 {
+  grid-area: info2;
+}
+.bodyTotal5 .info3 {
+  grid-area: info3;
+}
+.bodyTotal5 .footer {
+  grid-area: footer;
+}
+
+.titulop {
+  text-align: center;
+}
+.titulop p {
+  font-size: 1.5rem;
+}
+
+.text {
+  margin-top: 6rem;
+}
+
+.qatar {
+  margin-top: 1rem;
+  display: flex;
+}
+.qatar p {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .qatar img {
-  width: 550px;
-  height: 350px;
+  width: 470px;
+  height: 320px;
 }
 
-.titulo5c {
-  margin-top: 4rem;
+.text2 {
+  margin-top: 6rem;
+}
+.text2 p {
+  font-size: 1.4rem;
+}
+
+.argentina {
+  display: flex;
+  justify-content: space-between;
+}
+.argentina .imgf {
+  width: 440px;
+  height: 320px;
+}
+
+.text3 {
+  margin-top: 6rem;
+}
+.text3 p {
+  font-size: 1.4rem;
 }
 
 .bangladesh {
   margin-top: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
-.mapa {
-  width: 400px;
-  height: 250px;
+.bangladesh .mapa {
+  width: 440px;
+  height: 320px;
 }
-
-.img5 {
-  width: 400px;
-  height: 250px;
+.bangladesh .img5 {
+  width: 440px;
+  height: 320px;
 }
 
 @media screen and (max-width: 768px) {
-  .bodyTotal {
+  .bodyTotal2 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0, 8fr 1fr 1fr 1fr 0fr;
     grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
-  }
-  .encabezado img {
-    width: 50px;
-    margin-left: 5rem;
   }
   li {
     display: inline-block;
@@ -305,10 +438,14 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .bodyTotal {
+  .bodyTotal2 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0, 6fr 1fr 1fr 1fr 0.1fr;
     grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
+  }
+  .encabezado img {
+    width: 10px;
+    margin-left: 5rem;
   }
   li {
     font-size: 1rem;
@@ -348,9 +485,9 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .bodyTotal2 {
+  .bodyTotal3 {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.3fr 4fr 0.1fr;
+    grid-template-rows: 0.1fr 0.8fr 6fr 0.1fr;
     grid-template-areas: "menu " "titulo" "contenido " "footer ";
   }
   .main3 {
@@ -373,7 +510,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .bodyTotal2 {
+  .bodyTotal3 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.3fr 7fr 0.1fr;
     grid-template-areas: "menu " "titulo" "contenido " "footer ";
@@ -393,6 +530,16 @@
     height: 220px;
   }
 }
+@media screen and (max-width: 768px) {
+  .bodyTotal1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 5fr 0.2fr;
+    grid-template-areas: "menu" "contenido" "footer";
+  }
+  .encabezado {
+    background-color: red;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -403,13 +550,29 @@ html {
   font-size: 62.5%;
 }
 
+.bodyTotal1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 6.5fr 0.2fr;
+  grid-template-areas: "menu menu" "contenido contenido" "footer footer";
+}
+.bodyTotal1 .navegacion {
+  grid-area: menu;
+}
+.bodyTotal1 .intro {
+  grid-area: contenido;
+}
+.bodyTotal1 .footer {
+  grid-area: footer;
+}
+
 .encabezado {
   background-color: gray;
   display: flex;
   justify-content: space-between;
 }
 .encabezado img {
-  width: 75px;
+  width: 80px;
   margin-left: 5rem;
 }
 
@@ -435,7 +598,7 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .intro img {
   height: 300px;
@@ -446,7 +609,11 @@ ul {
 }
 
 main div:hover {
-  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  margin-top: 0.5rem;
 }
 
 .card-text {

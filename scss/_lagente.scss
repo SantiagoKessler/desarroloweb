@@ -1,26 +1,120 @@
-.qatar img {
-    width: 550px;
-    height: 350px;
+.bodyTotal5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.2fr 0, 5fr 0.5fr 0.5fr 0.5fr 0.1fr;
+    grid-template-areas:
+        "menu menu "
+        "titulo titulo"
+        "info1  info1"
+        "info2  info2"
+        "info3  info3"
+        "footer footer";
+
+
+    .navegacion {
+        grid-area: menu;
+    }
+
+    .titulop {
+        grid-area: titulo;
+    }
+
+    .info1 {
+        grid-area: info1;
+    }
+
+    .info2 {
+        grid-area: info2;
+    }
+
+    .info3 {
+        grid-area: info3;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
 }
 
-.titulo5c {
-    margin-top: 4rem;
+
+
+.titulop {
+    text-align: center;
+
+    p {
+        font-size: 1.5rem;
+    }
 }
+
+.text {
+    margin-top: 6rem;
+}
+
+.qatar {
+    margin-top: 1rem;
+    display: flex;
+
+
+    p {
+        text-align: justify;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    img {
+        width: 470px;
+        height: 320px;
+
+    }
+}
+
+
+.text2 {
+    margin-top: 6rem;
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+.argentina {
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .imgf {
+        width: 440px;
+        height: 320px;
+
+    }
+}
+
+.text3 {
+    margin-top: 6rem;
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
 
 .bangladesh {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
+    .mapa {
+        width: 440px;
+        height: 320px;
+    }
 
-}
+    .img5 {
+        width: 440px;
+        height: 320px;
+    }
 
-.mapa {
-    width: 400px;
-    height: 250px;
-}
-
-.img5 {
-    width: 400px;
-    height: 250px;
 }
