@@ -38,11 +38,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   margin-top: 1rem;
   font-size: 1.4rem;
 }
-
 .center p {
   font-size: 1.7rem;
 }
@@ -51,7 +50,6 @@
   display: flex;
   margin-top: 3rem;
 }
-
 .post1 p {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -73,7 +71,6 @@
   display: flex;
   margin-top: 3rem;
 }
-
 .post2 p {
   margin-right: 1rem;
   margin-left: 1rem;
@@ -111,7 +108,6 @@
   color: whitesmoke;
   font-size: 1.4rem;
 }
-
 .descrip3 p {
   text-align: justify;
 }
@@ -166,7 +162,6 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
-
 .partido1 p {
   font-weight: 700;
 }
@@ -182,27 +177,21 @@
   grid-template-rows: 0.2fr 0.3fr 2.8fr 0.8fr 0.6fr 0.1fr;
   grid-template-areas: "menu menu" "titulo titulo" "principal principal" "penales penales" "final final" "footer footer";
 }
-
 .bodyTotal4 .navegacion {
   grid-area: menu;
 }
-
 .bodyTotal4 .titulo4 {
   grid-area: titulo;
 }
-
 .bodyTotal4 .main4 {
   grid-area: principal;
 }
-
 .bodyTotal4 .ultimo1 {
   grid-area: penales;
 }
-
 .bodyTotal4 .final {
   grid-area: final;
 }
-
 .bodyTotal4 .footer {
   grid-area: footer;
 }
@@ -210,12 +199,10 @@
 .titulo4 {
   text-align: center;
 }
-
 .titulo4 h1 {
   font-size: 2.1rem;
   letter-spacing: 0.2rem;
 }
-
 .titulo4 h2 {
   margin-top: 0.5rem;
   font-size: 1.4rem;
@@ -229,12 +216,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .main4 img {
   width: 520px;
   height: 305px;
 }
-
 .main4 iframe {
   width: 520px;
   height: 305px;
@@ -246,7 +231,6 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-
 .section4 p {
   font-size: 1, 5rem;
   font-weight: 700;
@@ -259,7 +243,6 @@
   align-items: center;
   padding-bottom: 3rem;
 }
-
 .ultimo1 p {
   font-size: 1, 5rem;
   font-weight: 800;
@@ -274,16 +257,13 @@
   text-align: center;
   margin-top: 3rem;
 }
-
 .div4 h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-
 .div4 h4 {
   font-size: 1.5rem;
 }
-
 .div4 p {
   font-size: 1.3rem;
   margin-left: 5rem;
@@ -308,27 +288,21 @@
   grid-template-rows: 0.2fr 0, 5fr 0.5fr 0.5fr 0.5fr 0.1fr;
   grid-template-areas: "menu menu " "titulo titulo" "info1  info1" "info2  info2" "info3  info3" "footer footer";
 }
-
 .bodyTotal5 .navegacion {
   grid-area: menu;
 }
-
 .bodyTotal5 .titulop {
   grid-area: titulo;
 }
-
 .bodyTotal5 .info1 {
   grid-area: info1;
 }
-
 .bodyTotal5 .info2 {
   grid-area: info2;
 }
-
 .bodyTotal5 .info3 {
   grid-area: info3;
 }
-
 .bodyTotal5 .footer {
   grid-area: footer;
 }
@@ -336,7 +310,6 @@
 .titulop {
   text-align: center;
 }
-
 .titulop p {
   font-size: 1.5rem;
 }
@@ -349,7 +322,6 @@
   margin-top: 1rem;
   display: flex;
 }
-
 .qatar p {
   text-align: justify;
   font-size: 1.2rem;
@@ -357,7 +329,6 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
 .qatar img {
   width: 470px;
   height: 320px;
@@ -366,7 +337,6 @@
 .text2 {
   margin-top: 6rem;
 }
-
 .text2 p {
   font-size: 1.4rem;
 }
@@ -375,7 +345,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .argentina .imgf {
   width: 440px;
   height: 320px;
@@ -384,7 +353,6 @@
 .text3 {
   margin-top: 6rem;
 }
-
 .text3 p {
   font-size: 1.4rem;
 }
@@ -394,12 +362,10 @@
   display: flex;
   justify-content: space-between;
 }
-
 .bangladesh .mapa {
   width: 440px;
   height: 320px;
 }
-
 .bangladesh .img5 {
   width: 440px;
   height: 320px;
@@ -411,207 +377,169 @@
     grid-template-rows: 0.2fr 0, 8fr 1fr 1fr 1fr 0fr;
     grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
   }
-
   li {
     display: inline-block;
     margin-right: 2rem;
     font-size: 1.1rem;
     margin-top: 2rem;
   }
-
   .center {
     font-size: 1rem;
     height: 40rem;
   }
-
   .post1 {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 3rem;
   }
-
   .post1 p {
     margin-top: 1rem;
   }
-
   .imagen1 {
     width: 550px;
     height: 320px;
     margin-top: 1rem;
   }
-
   .descrip1 {
     font-size: 1.1rem;
   }
-
   .post2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
   }
-
   .post2 p {
     margin-top: 1rem;
   }
-
   .imagen2 {
     width: 550px;
     height: 325px;
     margin-top: 1rem;
   }
-
   .descrip2 {
     font-size: 1.1rem;
   }
-
   .post3 {
     height: 33rem;
   }
-
   .descrip3 {
     color: whitesmoke;
     font-size: 1.1rem;
   }
-
   .video1 {
     height: 220px;
     width: 360px;
     margin-top: 2rem;
   }
-
   .footer img {
     height: 30px;
   }
 }
-
 @media screen and (max-width: 500px) {
   .bodyTotal2 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0, 6fr 1fr 1fr 1fr 0.1fr;
     grid-template-areas: "menu" "intro" "principal1" "principal2" "video" "footer";
   }
-
   .encabezado img {
     width: 10px;
     margin-left: 5rem;
   }
-
   li {
     font-size: 1rem;
   }
-
   .center {
     font-size: 0.9rem;
     height: 30rem;
   }
-
   .descrip1 {
     font-size: 0.9rem;
   }
-
   .imagen1 {
     width: 400px;
     height: 200px;
     margin-top: 0, 5rem;
     margin-right: none;
   }
-
   .descrip2 {
     font-size: 0.9rem;
   }
-
   .imagen2 {
     width: 400px;
     height: 200px;
     margin-top: 0, 5rem;
   }
-
   .descrip3 {
     color: whitesmoke;
     font-size: 0.8rem;
   }
-
   .video1 {
     height: 200px;
     width: 300px;
     margin-top: 2rem;
   }
-
   .footer img {
     height: 25px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .bodyTotal3 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.8fr 6fr 0.1fr;
     grid-template-areas: "menu " "titulo" "contenido " "footer ";
   }
-
   .main3 {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
   }
-
   .titulo3 {
     text-align: center;
     margin-top: 2rem;
     font-size: 1rem;
   }
-
   .partido1 {
     margin-bottom: 2rem;
     font-size: 1rem;
   }
-
   .video2 {
     width: 480px;
     height: 280px;
   }
 }
-
 @media screen and (max-width: 500px) {
   .bodyTotal3 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.3fr 7fr 0.1fr;
     grid-template-areas: "menu " "titulo" "contenido " "footer ";
   }
-
   .main3 {
     margin-top: 4rem;
   }
-
   .titulo3 {
     margin-top: 3rem;
     font-size: 0.9rem;
   }
-
   .partido1 {
     font-size: 0.9rem;
   }
-
   .video2 {
     width: 400px;
     height: 220px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .bodyTotal1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 5fr 0.2fr;
     grid-template-areas: "menu" "contenido" "footer";
   }
-
   .encabezado {
     background-color: red;
   }
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -628,15 +556,12 @@ html {
   grid-template-rows: 0.3fr 6.5fr 0.2fr;
   grid-template-areas: "menu menu" "contenido contenido" "footer footer";
 }
-
 .bodyTotal1 .navegacion {
   grid-area: menu;
 }
-
 .bodyTotal1 .intro {
   grid-area: contenido;
 }
-
 .bodyTotal1 .footer {
   grid-area: footer;
 }
@@ -646,7 +571,6 @@ html {
   display: flex;
   justify-content: space-between;
 }
-
 .encabezado img {
   width: 80px;
   margin-left: 5rem;
@@ -676,11 +600,9 @@ ul {
   font-size: 1.5rem;
   padding-top: 4rem;
 }
-
 .intro img {
   height: 300px;
 }
-
 .intro h2 {
   padding-top: 1rem;
   font-size: 2.1rem;
@@ -703,7 +625,6 @@ main div:hover {
 .footer {
   text-align: right;
 }
-
 .footer img {
   height: 40px;
 }
